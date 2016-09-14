@@ -7,7 +7,7 @@
 + sudo apt-get install libmysqld-dev
 + sudo apt-get install python-pip
 + sudo pip install virtualenvwrapper
-+ vim ~/.bashrc (末尾加上下面这行)
++ vim ~/.bashrc (add following line to the end of this file)
 
 `source /usr/local/bin/virtualenvwrapper.sh`
 + source ~/.bashrc
@@ -25,7 +25,7 @@ make sure Python2.7.10+ installed (pip and setuptools included)
 + pip install -r requirements.txt
 
 **init**
-+ cd /path/to/oe-sas
++ cd /path/to/django-project-seed
 + python manage.py migrate
 
 **run**
